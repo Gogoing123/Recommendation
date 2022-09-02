@@ -1,0 +1,25 @@
+STCS-HJQC-001,linux,仅清理当前用户,history -c
+STCS-HJQC-002,linux,使系统不再保存命令记录,vi /etc/profile，找到HISTSIZE这个值，修改为0
+STCS-HJQC-003,linux,删除登录失败记录,echo > /var/log/btmp
+STCS-HJQC-004,linux,删除登录成功记录,echo > /var/log/wtmp （此时执行last命令就会发现没有记录）
+STCS-HJQC-005,linux,删除日志记录,echo > /var/log/secure
+STCS-HJQC-006,linux,禁用当前会话的所有历史记录,export HISTSIZE=0 history -cw 都会清空history
+STCS-HJQC-007,linux,只针对工作关闭历史记录,set +o history 执行命令 set -o history
+STCS-HJQC-008,linux,从历史记录中删除指定的命令,history -d [num]
+STCS-HJQC-009,linux,删除全部历史命令,rm ~/.bash_history
+STCS-HJQC-010,linux,删除全部历史命令,echo " " > .bash_history
+STCS-HJQC-011,linux,删除全部历史命令,cat /dev/null > ~/.bash_history
+STCS-HJQC-012,linux,清除日志文件,cat /dev/null > /var/log/audit/audit.log
+STCS-HJQC-013,windows,应用程序日志文件,%systemroot%\system32\config\AppEvent.EVT
+STCS-HJQC-014,windows,安全日志文件,%systemroot%\system32\config\SecEvent.EVT
+STCS-HJQC-015,windows,系统日志文件,%systemroot%\system32\config\SysEvent.EVT
+STCS-HJQC-016,windows,DNS日志默认位置,%sys temroot%\system32\config，默认文件大小512KB
+STCS-HJQC-017,windows,Internet信息服务FTP日志默认位置,%systemroot%\system32\logfiles\msftpsvc1\，默认每天一个日志
+STCS-HJQC-018,windows,Internet信息服务WWW日志默认位置,%systemroot%\system32\logfiles\w3svc1\，默认每天一个日志
+STCS-HJQC-019,windows,Scheduler服务日志默认位置,%sys temroot%\schedlgu.txt
+STCS-HJQC-020,windows,注册表,HKEY_LOCAL_MACHINE\system\CurrentControlSet\Services\Eventlog
+STCS-HJQC-021,windows,注册表,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SchedulingAgent
+STCS-HJQC-022,windows,ftp日志,D:\SERVER>del schedlgu.txt
+STCS-HJQC-023,windows,ftp日志,D:\SERVER\SchedLgU.Txt
+STCS-HJQC-024,windows,www日志,D:\SERVER\system32\LogFiles\W3SVC1>del ex*.log
+STCS-HJQC-025,windows,www日志,D:\SERVER\system32\LogFiles\W3SVC1>

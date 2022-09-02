@@ -1,0 +1,10 @@
+STCS-TQBZ-001,获取root权限,获取交互式shell，脏牛提权，获取root权限
+STCS-TQBZ-002,获取root权限,反弹shell，获取交互式shell，写入文件，获取root权限
+STCS-TQBZ-003,获取root权限,获取交互式shell，md5解密，ssh连接，获取root权限
+STCS-TQBZ-004,获取root权限,获取交互式shell，37292.c提权，获取root权限
+STCS-TQBZ-005,获取root权限,获取交互式shell，枚举，强制登录，获取root权限
+STCS-TQBZ-006,获取root权限,teehee提权
+STCS-TQBZ-007,获取root权限,获取交互式shell，上传公钥，jjs提权
+STCS-TQBZ-008,获取root权限,脏牛提权，执行脚本，获取root权限
+STCS-TQBZ-009,获取root权限,msf生成dll，MSF监听，劫持DLL，提权 
+STCS-TQBZ-010,获取root权限,nc监听，查看系统信息，exploit库查找，上传exp，文件执行，ssh连接 

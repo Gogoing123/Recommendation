@@ -1,0 +1,41 @@
+ID,from,tool,to,tag
+STCS-XXSJ-001,nmap,主机发现,-sL,工具
+STCS-XXSJ-002,nmap,tcp扫描,-sT,工具
+STCS-XXSJ-003,nmap,udp扫描,-sU,工具
+STCS-XXSJ-004,nmap,端口扫描,-p,工具
+STCS-XXSJ-005,nmap,特定端口,-p,工具
+STCS-XXSJ-006,nmap,服务,-sV,工具
+STCS-XXSJ-007,nmap,版本,-sV,工具
+STCS-XXSJ-008,nmap,操作系统,-sV,工具
+STCS-XXSJ-009,nmap,服务器类型,-sV,工具
+STCS-XXSJ-010,whatweb,单个目标,输入ip地址,工具
+STCS-XXSJ-011,whatweb,多个目标,-input-file=路径,工具
+STCS-XXSJ-012,whatweb,结果格式,-log-xml=result.xml,工具
+STCS-XXSJ-013,whatweb,详细输出,-v,工具
+STCS-XXSJ-014,whatweb,用户名和密码,-v -proxy-user admin:password,工具
+STCS-XXSJ-015,whatweb,服务,-sV,工具
+STCS-XXSJ-016,whatweb,版本,-sV,工具
+STCS-XXSJ-017,wwwscan,单个扫描,输入ip地址,工具
+STCS-XXSJ-018,wwwscan,批量扫描,添加cgi.list,工具
+STCS-XXSJ-019,wwwscan,特定端口,-p,工具
+STCS-XXSJ-020,wwwscan,超时时间,-t,工具
+STCS-XXSJ-021,御剑,网站目录扫描,输入url,工具
+STCS-XXSJ-022,御剑,目录快速扫描,head模式,工具
+STCS-XXSJ-023,御剑,目录标准扫描,get模式,工具
+STCS-XXSJ-024,ping,服务器类型,ping IP地址,工具
+STCS-XXSJ-025,whois,查询所有者,whois url,工具
+STCS-XXSJ-026,whois,查询域名信息,whois url,工具
+STCS-XXSJ-027,cansina,目录扫描,-u,工具
+STCS-XXSJ-028,dirbuster,目录扫描,-R,工具
+STCS-XXSJ-029,dirbuster,详细输出,-v,工具
+STCS-XXSJ-030,dirbuster,get请求,-g,工具
+STCS-XXSJ-031,chinaz,查询ip,输入查询域名,工具
+STCS-XXSJ-032,chinaz,CDN检测,输入查询域名,工具
+STCS-XXSJ-033,SecurityTrails,查询真实ip,输入查询域名,工具
+STCS-XXSJ-034,whatweb,网站指纹识别,url地址,工具
+STCS-XXSJ-035,Firefox插件,脚本类型,null,工具
+STCS-XXSJ-036,端口号对应表,数据库类型,工具
+STCS-XXSJ-037,masscan,端口扫描,-p,工具
+STCS-XXSJ-038,masscan,发包速率,-rate,工具
+STCS-XXSJ-039,masscan,指定端口,-ip,工具
+STCS-XXSJ-040,Netcraft,查询ip,输入查询域名,工具

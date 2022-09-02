@@ -1,0 +1,20 @@
+STCS-BZTJ-001,绕过,注册账号，尝试文件上传，上传脚本文件，使用msf进行连接，获取shell，获取交互式shell
+STCS-BZTJ-002,sql注入,注册账号，sql注入，尝试文件上传，上传脚本文件，使用msf进行连接，获取shell，获取交互式shell
+STCS-BZTJ-003,目录遍历,尝试文件上传，上传脚本文件，使用msf进行连接，获取shell，获取交互式shell
+STCS-BZTJ-004,注入,报错注入，延时注入，爆表，爆字段，获取字段，目录遍历，写入文件，目录遍历，蚁剑连接
+STCS-BZTJ-005,目录遍历,目录扫描，Burp爆破，爆破得到密码，抓包，反弹shell，爆破ssh密码，hydra爆破，获得用户名，SSH连接，连接charles的ssh，获取shell
+STCS-BZTJ-006,注入,字典暴破，登录ssh，反弹shell，注入测试，暴破目录，DirBuster暴破，获取shell，登录index首页，反弹shell
+STCS-BZTJ-007,注入,尝试put上传，设置攻击载荷，提交表单数据，重新填充到对应的表单数据中，绕过了安全限制，执行任意命令poc，GET传输拼接，反弹shell
+STCS-BZTJ-008,注入,字典暴破，登录ssh，反弹shell，注入测试，暴破目录，DirBuster暴破，获取shell，登录index首页，反弹shell
+STCS-BZTJ-009,sql注入,命令行连接，反弹shell，连接mysql数据库，查看mysql用户，读取tidyup.sh脚本，查看sudo权限，nc监听，反弹shell，查看权限，图片拷贝，连接数据库，发现端口，生成war文件上传到tomcat，获取shell
+STCS-BZTJ-010,注入,抓包，命令注入，反弹shell，本机监听，获得普通用户权限，得到shell，redis提权
+STCS-BZTJ-011,绕过,Burp爆破，抓包，执行命令，反弹SHELL，爆破SSH密码，hydra爆破，SSH连接
+STCS-BZTJ-012,sql注入,脚本注入，获取账号与密码，SSH连接
+STCS-BZTJ-013,缓冲区错误,脚本下载，解码，获取明文，信息获取，加密，私钥解密，ssh连接
+STCS-BZTJ-014,目录遍历,生成木马文件，上传文件，生成shell文件，获取shell
+STCS-BZTJ-015,目录遍历,弱口令，sql注入，脚本枚举，联合查询，获取用户名和密码，md5解密，文件上传，命令执行
+STCS-BZTJ-016,目录遍历,ssh连接，查看目录，md5解密，ssh登录，反弹shell nc监听，获得shell
+STCS-BZTJ-017,sql注入,sqlmap扫描，hash破解，获取密码账号，获取shel
+STCS-BZTJ-018,提权,searchsploit查询，反弹shell，绕过，msf监听端口，获取到shell
+STCS-BZTJ-019,代码执行,弱口令，文件上传，反弹shell ，smf接收shell，获取交互式shell
+STCS-BZTJ-020,Http响应拆分,exploit-db搜索，下载37292.c，搭建http服务，md5解码
